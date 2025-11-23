@@ -20,10 +20,10 @@ const config: Config = {
         'lahaina-coral': '#FF6F61',
       },
       fontFamily: {
-        'heading': ['var(--font-cormorant)', 'serif'],
-        'body': ['var(--font-inter)', 'sans-serif'],
-        'sans': ['var(--font-inter)', 'sans-serif'],
-        'serif': ['var(--font-cormorant)', 'serif'],
+        'heading': ['"Cormorant Garamond"', 'serif'],
+        'body': ['Inter', 'sans-serif'],
+        'sans': ['Inter', 'sans-serif'],
+        'serif': ['"Cormorant Garamond"', 'serif'],
       },
       fontSize: {
         'h1': '48px',

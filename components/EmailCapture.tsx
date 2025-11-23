@@ -33,7 +33,7 @@ export default function EmailCapture() {
           Get Notified
         </h2>
         <p className="font-body text-body text-center text-iron-gray mb-l">
-          We'll let you know when the collection goes live.
+          We&apos;ll let you know when the collection goes live.
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-m">

@@ -7,7 +7,7 @@ export default function Intro() {
         </h2>
         <div className="space-y-m font-body text-body text-gallery-black">
           <p className="text-balance">
-            There's a curve that runs through four generations of Costantino artists. It started as forged iron in 1920s Hollywood. It became painted abstraction in 1970s Houston. It evolved into fluid movement in 1990s Maui.
+            There&apos;s a curve that runs through four generations of Costantino artists. It started as forged iron in 1920s Hollywood. It became painted abstraction in 1970s Houston. It evolved into fluid movement in 1990s Maui.
           </p>
           <p className="text-balance">
             The Costantino lineage: from ironworker to painter to collaborative canvas. Same motif. Different light.
