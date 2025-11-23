@@ -11,6 +11,7 @@ This documentation is intended to be used by:
 
 ## Contents
 
+- **the-costantino-lineage.md** - **Start here.** The foundational document explaining the Costantino art lineage, motifs, and how to represent the work
 - **website-design-principles.md** - Core principles for website design and user experience
 
 ## Guidelines
