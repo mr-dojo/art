@@ -30,10 +30,10 @@ export default function EmailCapture() {
     <section id="signup" className="py-xxl px-m bg-canvas-cream">
       <div className="max-w-md mx-auto">
         <h2 className="font-heading text-h3 mb-m text-gallery-black text-center">
-          Stay Updated
+          Get Notified
         </h2>
         <p className="font-body text-body text-center text-iron-gray mb-l">
-          Be the first to know when we launch our gallery.
+          We'll let you know when the collection goes live.
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-m">

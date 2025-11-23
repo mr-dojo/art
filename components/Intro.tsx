@@ -3,20 +3,17 @@ export default function Intro() {
     <section className="py-xxl px-m bg-canvas-cream">
       <div className="max-w-3xl mx-auto">
         <h2 className="font-heading text-h2 mb-l text-gallery-black text-center">
-          Where Art Meets Vision
+          The Scroll That Started in Iron
         </h2>
         <div className="space-y-m font-body text-body text-gallery-black">
           <p className="text-balance">
-            Welcome to Costantino Art, a curated space dedicated to contemporary artistic expression.
-            We are preparing an immersive gallery experience that will showcase unique artworks and
-            creative narratives.
+            There's a curve that runs through four generations of Costantino artists. It started as forged iron in 1920s Hollywood. It became painted abstraction in 1970s Houston. It evolved into fluid movement in 1990s Maui.
           </p>
           <p className="text-balance">
-            Our collection celebrates the intersection of traditional techniques and modern innovation,
-            bringing you closer to the creative process and the stories behind each piece.
+            The Costantino lineage: from ironworker to painter to collaborative canvas. Same motif. Different light.
           </p>
           <p className="text-balance">
-            Sign up below to be the first to know when we launch our full gallery experience.
+            Sign up to know when the gallery opens.
           </p>
         </div>
       </div>
