@@ -3,15 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  /* Primary Palette */
+  --canvas-cream: #F5F1E8;
+  --gallery-black: #1A1A1A;
+  --iron-gray: #4A4A4A;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Accent Colors */
+  --maui-blue: #0077BE;
+  --scroll-gold: #B8860B;
+  --lahaina-coral: #FF6F61;
+
+  /* Semantic Variables */
+  --background: var(--canvas-cream);
+  --foreground: var(--gallery-black);
 }
 
 body {
