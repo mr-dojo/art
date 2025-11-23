@@ -27,23 +27,23 @@ export default function EmailCapture() {
   };
 
   return (
-    <section id="signup" className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
+    <section id="signup" className="py-xxl px-m bg-canvas-cream">
       <div className="max-w-md mx-auto">
-        <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-center">
+        <h2 className="font-heading text-h3 mb-m text-gallery-black text-center">
           Stay Updated
         </h2>
-        <p className="text-center text-gray-600 dark:text-gray-400 mb-8">
+        <p className="font-body text-body text-center text-iron-gray mb-l">
           Be the first to know when we launch our gallery.
         </p>
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-m">
           <div>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-purple-400"
+              className="w-full px-m py-m rounded-lg border border-iron-gray bg-canvas-cream text-gallery-black placeholder-iron-gray/60 focus:outline-none focus:ring-2 focus:ring-maui-blue font-body"
               required
               disabled={status === 'success'}
             />
@@ -52,20 +52,20 @@ export default function EmailCapture() {
           <button
             type="submit"
             disabled={status === 'success'}
-            className="w-full px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-medium rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full px-l py-m bg-scroll-gold text-gallery-black font-body font-medium rounded-lg hover:opacity-90 transition-opacity duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {status === 'success' ? 'Thank You!' : 'Notify Me'}
           </button>
         </form>
 
         {status === 'success' && (
-          <p className="mt-4 text-center text-green-600 dark:text-green-400 text-sm">
+          <p className="mt-m text-center text-maui-blue font-body text-small">
             Successfully subscribed! We&apos;ll be in touch soon.
           </p>
         )}
 
         {status === 'error' && (
-          <p className="mt-4 text-center text-red-600 dark:text-red-400 text-sm">
+          <p className="mt-m text-center text-lahaina-coral font-body text-small">
             Please enter a valid email address.
           </p>
         )}
