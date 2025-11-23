@@ -11,8 +11,34 @@ This documentation is intended to be used by:
 
 ## Contents
 
-- **the-costantino-lineage.md** - **Start here.** The foundational document explaining the Costantino art lineage, motifs, and how to represent the work
-- **website-design-principles.md** - Core principles for website design and user experience
+### 📍 Start Here
+
+- **master-index.md** - **Navigation hub.** The complete map of all documentation with decision trees, quick references, and agent training scenarios
+
+### 🎨 Foundation Documents
+
+- **the-costantino-lineage.md** - The foundational story of four generations from iron to canvas, the Costantino Scroll motif, and the family DNA
+- **website-design-principles.md** - Core philosophy for website design and user experience
+
+### 📚 Core Reference Documents
+
+- **collection-taxonomy.md** - How artwork is organized by lineage (Iron/Jazz/Flow/Digital), metadata structure, and collection rules
+- **voice-and-tone-guide.md** - Writing guidelines, tone modulation, vocabulary guide, and the story framework for all content
+- **artist-profiles.md** - Contextual biographies for each artist (Calogero, Salvatore, Ralph, Augustine, Stephanie, Carlo)
+- **visual-language.md** - Complete design system including colors, typography, layouts, spacing, and the Costantino Scroll motif
+
+### ⚙️ Operational Protocols
+
+- **commission-protocol.md** - 8-stage process for handling custom artwork requests, from discovery to delivery
+- **authentication-protocol.md** - 9-stage process for verifying and registering Costantino family artwork
+
+---
+
+## Documentation Philosophy
+
+**Documentation as Infrastructure**: These documents aren't passive reference material—they're the actual system specification. When a Claude Code agent needs to build, maintain, or operate the Costantino Art website, these documents provide the complete context.
+
+**The Core Idea**: If natural language is the interface, documentation is the code. The clearer the context, the better the output.
 
 ## Guidelines
 
