@@ -9,8 +9,38 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        // Primary Palette
+        'canvas-cream': '#F5F1E8',
+        'gallery-black': '#1A1A1A',
+        'iron-gray': '#4A4A4A',
+
+        // Accent Colors
+        'maui-blue': '#0077BE',
+        'scroll-gold': '#B8860B',
+        'lahaina-coral': '#FF6F61',
+      },
+      fontFamily: {
+        'heading': ['var(--font-cormorant)', 'serif'],
+        'body': ['var(--font-inter)', 'sans-serif'],
+        'sans': ['var(--font-inter)', 'sans-serif'],
+        'serif': ['var(--font-cormorant)', 'serif'],
+      },
+      fontSize: {
+        'h1': '48px',
+        'h2': '36px',
+        'h3': '24px',
+        'body': '16px',
+        'small': '14px',
+        'tiny': '12px',
+      },
+      lineHeight: {
+        'normal': '1.6',
+      },
+      backgroundColor: {
+        'default': '#F5F1E8', // Canvas Cream
+      },
+      textColor: {
+        'default': '#1A1A1A', // Gallery Black
       },
       spacing: {
         'xs': '4px',
@@ -35,4 +65,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
