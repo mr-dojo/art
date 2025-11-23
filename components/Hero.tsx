@@ -5,11 +5,11 @@ export default function Hero() {
         <h1 className="font-heading text-h1 mb-l text-gallery-black">
           Costantino
           <span className="block mt-s text-lahaina-coral">
-            Contemporary Art
+            Four Generations
           </span>
         </h1>
         <p className="font-body text-body text-iron-gray mb-xl">
-          Coming Soon
+          From iron to canvas. Opening soon.
         </p>
         <div className="flex justify-center">
           <a
